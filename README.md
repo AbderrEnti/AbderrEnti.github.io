@@ -73,3 +73,15 @@ La sintaxis es: exlamación seguido de una descripción dentro de llaves angulad
 ### Enñlaces
 
 Los enlacesson parecidos a las imágenes, la diferencia es que no lleva exclamación delante y se puede introducir dentro de frases [como esta](https://enti.cat).
+
+### Bloques de cita.
+
+Los bloques de nos ayudan a destacar el código o frases de maneraespecial.
+
+> Esto es una cita.
+
+Pra la cita, se utiliza el simbolo mayor que seguido de un espacio.
+
+> Esto es una cita
+> Con multiples **lineas**
+> > Esto es una cita dentro de otra
