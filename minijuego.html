@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+<html>
+
+
+
+
+
+
+<head>
+
+
+	 <title>Mi fantastica páguina</title>
+
+
+	
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+<header>
+
+
+
+
+
+
+<!-- esto es un comentario -->
+
+
+<h1>Cabecera 1</h1>
+
+
+<nav>
+
+
+<ul>
+
+
+<li><a href="index.html">Portada</a></li>
+
+
+<li><a href="cv.html">Cv</a></li>
+
+
+<li><a href="sobremi.html">Sobremi</a></li>
+
+
+<li><a href="contacto.html">Contacto</a></li>
+
+
+
+
+
+
+</ul>
+
+
+</nav>
+
+
+</header>
+
+
+<main>
+
+
+<form>
+
+
+
+
+
+
+<h2>Adivina el número</h2>
+
+
+<p> inserta un numero del 1 al 100 </p>
+
+
+<p id="mensaje"><em>haz click</em></p>
+
+
+<p><label for="numero">numero:</label> <input type="number" name="numero" id="numero" placeholder="Numero"/></p>
+
+
+<p><input type="button" value="¡Adivina!" id="adivina" /></p>
+
+
+<p id="intentos">Numero de intentos: 0</p>
+
+
+<script>
+
+
+let numero_random = Math.floor(Math.random()*100) + 1;
+
+
+let adivina = document.getElementById("adivina");
+
+
+let contador = 0;
+
+
+let intentos = document.getElementById("intentos");
+
+
+adivina.addEventListener("click", function(event){
+
+
+const numero = document.getElementById("numero").value;
+
+
+
+
+
+
+let mensaje = document.getElementById("mensaje");
+
+
+
+
+
+
+if (numero === ""){
+
+
+console.log("has de introducir un numero");
+
+
+mensaje.innerHTML = "has de introducir un numero";
+
+
+return;
+
+
+}
+
+
+if (numero > numero_random){
+
+
+console.log("el numero es menor");
+
+
+	 mensaje.innerHTML = "Es menor";
+
+
+
+
+
+
+}
+
+
+else if ( numero < numero_random) {
+
+
+console.log("El numero es mayor");
+
+
+	 mensaje.innerHTML = "Es mayor";
+
+
+
+
+
+
+}
+
+
+else{
+
+
+console.log("Has ganado")
+
+
+mensaje.innerHTML = "Has ganado";
+
+
+}
+
+
+contador++;
+
+
+intentos.innerHTML = "Número de intentos: " + contador;
+
+
+});
+
+
+</script>
+
+
+</form>
+
+
+</main>
+
+
+</body>
+
+                               </html>
