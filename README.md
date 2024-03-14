@@ -66,7 +66,7 @@ Las listas anidadas son listas dentro de listas
 
 	Para añadir una imágen, hemos de dar una descripción y el nombre de la imagen (con la ruta, si hiciera falta).
 
-![AIdro_l8Ux3HvQ2XZ3_TzlVvRoHZop-c0wFCx75vkcjuyA=s900-c-k-c0x00ffffff-no-rj](imagen.jpg)
+![2c72ebfe701a0115.png](imagen.jpg)
 
 La sintaxis es: exlamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre paréntesis (sin espacios entre exclamación, llaves anguladas y paréntesis).
 
