@@ -16,7 +16,18 @@ Para hacer párrafos debe haber una o  mas lineas en blanco entre lineas.
 
 como por ejemplo, esta.
 
-O esta otra... recordatorio: bo pongáis espacios antes del primer carácter párrafo
+O esta otra...**recordatorio**: bo pongáis espacios antes del primer carácter párrafo
 
+### Enfasis
 
+### Negrita
+
+Para la negrita se utiliza dos asteriscos al **principio y al final** de la frase a destacar.
+Para la cursiva se suele utilizar un guión bajo la _principio y al final_ de la frase a enftizar.
+
+**_Nota_**: No debe de haber espacio entre los asteriscos y/o el guión y lapalabra a destacar.
+
+### Negrita y cursiva
+
+Para utilizar dos énfasis lo haremos con dos asteriscos seguidos de un guión bajo y de la palabra o palabreas a destacar.
 
