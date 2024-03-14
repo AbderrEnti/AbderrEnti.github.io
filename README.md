@@ -69,3 +69,7 @@ Las listas anidadas son listas dentro de listas
 ![AIdro_l8Ux3HvQ2XZ3_TzlVvRoHZop-c0wFCx75vkcjuyA=s900-c-k-c0x00ffffff-no-rj](imagen.jpg)
 
 La sintaxis es: exlamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre paréntesis (sin espacios entre exclamación, llaves anguladas y paréntesis).
+
+### Enñlaces
+
+Los enlacesson parecidos a las imágenes, la diferencia es que no lleva exclamación delante y se puede introducir dentro de frases [como esta](https://enti.cat).
